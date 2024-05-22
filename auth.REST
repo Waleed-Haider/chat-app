@@ -1,0 +1,21 @@
+POST http://localhost:5000/api/auth/signup
+content-type: application/json
+
+{
+    "fullName": "Irtaza Haider",
+    "userName": "iwhaider",
+    "password": "12345678",
+    "confirmPassword": "12345678",
+    "gender": "male"
+}
+###
+POST http://localhost:5000/api/auth/login
+content-type: application/json
+
+{
+    "userName": "whaider",
+    "password": "12345678"
+}
+###
+POST http://localhost:5000/api/auth/logout
+content-type: application/json

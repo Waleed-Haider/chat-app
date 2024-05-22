@@ -1,0 +1,10 @@
+### SEND MESSAGE
+POST http://localhost:5000/api/messages/send/664cecca2fbaf701e7e96095
+content-type: application/json
+
+{
+  "message": "Hello Irtaza"
+}
+### GET MESSAGES
+GET http://localhost:5000/api/messages/664cecca2fbaf701e7e96095
+content-type: application/json
